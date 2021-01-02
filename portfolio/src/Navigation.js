@@ -2,15 +2,14 @@ import React from "react";
 import './App.css';
 function Navigation() {
     return (
-        <div className="Navigation">
-        <nav>
-            <ul>
-                <a><li>HOME</li></a>
-                <a><li>EXPERIENCE</li></a>
-                <a><li>CONTACT</li></a>
+        <nav className ="NavSpace">
+            <ul className="Nav">
+                <a><li>Home</li></a>
+                <a><li>Experience</li></a>
+                <a><li>Contact</li></a>
             </ul>
         </nav>
-        </div>
+
     );
   }
 export default Navigation;
