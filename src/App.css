@@ -21,13 +21,6 @@
   border-radius: 20px;
   margin: 5vw;
 }
-.Presentation {
-  background: linear-gradient(170.17deg, #4275C1 16.13%, rgba(48, 206, 216, 0) 92.61%, rgba(255, 255, 255, 0) 92.62%);
-}
-.Presentation h2 {
-  color: white;
-  font-family: 'Big Shoulders Stencil Display';
-}
 .Tools {
   justify-content: space-around ;
   margin: 5vw;
@@ -47,18 +40,49 @@
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  background-color: black;
-  color: white;
-  font-family: 'Big Shoulders Stencil Display';
-  font-weight: 200;
-  font-size: xx-large;
+  background-image: url('https://cdn.pixabay.com/photo/2017/11/24/18/35/abstract-2975412__340.jpg');
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.5vw;
+  width: 100vw;
+  right: 0%;
+  left: 0%;
+}
+.mainImage h1 {
+  color: rgb(255, 255, 255);
+}
+.Presentation1 {
+  margin-top: 2%;
+  color: rgb(22, 81, 190);
+  font-size: x-large;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align:left;
+  font-family: 'Josefin Slab', sans-serif;
+  font-size: 1.75vw;
+}
+.notes {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%
+}
+.notes img {
+  display:flex;
+  width: 15vw;
+  height: 17vw;
+  border-radius: 10%;
+  margin: 2% 2%
 }
 .Nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   list-style: none;
-  background-color: black;
+  background: white;
   color: white;
   margin-top: 0%;
   padding: 1%;
@@ -71,5 +95,28 @@
   background-color: black;
   color: white;
   top: 0%;
+}
+nav a {
+  background-color: white ;
+  height: 50vmin;
+  max-width: 13em;
+  max-height: 1.20em;
+  color: black;
+  padding: 0.75%;
+  margin-left: 2%;
+  border: 10px;
+  border-radius: 35%;
+  border-style: double;
+  box-shadow: 3px 3px 5px 5px black;
+}
+
+h1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  font-family: 'Big Shoulders Stencil Display';
+  font-size: xx-large;
 }
 

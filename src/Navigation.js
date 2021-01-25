@@ -9,7 +9,6 @@ function Navigation() {
                 <a><li>Contact</li></a>
             </ul>
         </nav>
-
     );
   }
 export default Navigation;
