@@ -11,15 +11,38 @@
   background: #58DA84;
   box-shadow: 0px 4px 4px rgba(109, 248, 198, 1);
   border-radius: 20px;
+  width: 20vw;
+  margin: 1vw;
 }
 .Projects {
-  padding: 1vw;
-  width: 300px;
+  padding: 2vw;
+  width: 20vw;
   height: 150px;
-  background: linear-gradient(105.18deg, #58DA84 27.78%, rgba(31, 167, 175, 0.85) 84.79%);
+  background: linear-gradient(105.18deg, #173cb6 27.78%, rgba(31, 167, 175, 0.85) 84.79%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   margin: 5vw;
+}
+.Projects:hover{
+  cursor: pointer;
+}
+.Projects a{
+  text-decoration: none;
+  color:white;
+}
+.ProjectsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Big Shoulders Stencil Display';
+  width: 100%;
+  margin: 0;
+}
+.Projects img {
+  width: 10vw;
+  height: 7vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px ;
 }
 .Tools {
   justify-content: space-around ;
@@ -30,11 +53,12 @@
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  background-color: black;
-  color: white;
+  color: rgb(54, 30, 190);
   padding: 1vw;
-  width: 300px;
+  width: 20vw;
   height: 150px;
+  display: flex;
+  flex-direction: column;
 }
 .mainImage {
   display: flex;
@@ -120,3 +144,25 @@ h2 {
   font-size: xx-large;
 }
 
+.ToolsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Big Shoulders Stencil Display';
+  margin: 10vw;
+}
+.ToolsContainer p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Josefin Slab', sans-serif;
+  font-size: large;
+  font-weight: 600;
+  margin: 4px;
+}
+.Form{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vw;
+  width: 30vw;
+}

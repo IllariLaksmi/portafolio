@@ -5,7 +5,10 @@ function Tools(props) {
         <div className="Tools">
         <h3>{props.title}</h3>
         <div className="ToolsStyle">
-            <p>{props.hability}</p>
+            <p>{props.hability1}</p>
+            <p>{props.hability2}</p>
+            <p>{props.hability3}</p>
+            <p>{props.hability4}</p>
         </div>
         </div>
     );
